@@ -1,13 +1,14 @@
 # Docker 部署指南
 
-本文介绍如何使用 Docker 快速部署短链系统，适用于开发和生产环境。
+本文介绍如何使用 Docker 快速部署基于 Spring Boot 的短链系统，适用于开发和生产环境。
 
 ## 1. 环境要求
 - Docker 20+ 版本
 - 可选：Docker Compose 1.25+
 
 ## 2. 构建镜像
-在项目根目录执行以下命令生成镜像：
+在项目根目录执行以下命令生成镜像（会自动构建后端）：
+
 ```bash
 docker build -t shortlink:latest .
 ```

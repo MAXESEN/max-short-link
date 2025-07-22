@@ -27,9 +27,10 @@
 - 扩展性：代码结构清晰，可根据需要增加更多功能。
 
 ## 4. 技术选型
-- 后端：可选用 Node.js + Express、Python Flask/Django 或 Go Gin 等框架。
-- 数据库：Redis + MySQL（或其他关系型数据库），其中 Redis 可用于缓存短链接。
-- 前端后台管理：Vue、React 等主流框架，或简单的纯 HTML/CSS/JS。
+- 后端：采用 **Spring Boot** 作为基础框架，便于在企业环境中部署和扩展。
+- 数据库：默认使用 SQLite，也可切换 MySQL、PostgreSQL 等关系型数据库，Redis 作为缓存。
+- 前端后台管理：使用 **Vue 3** + Vite 构建，可嵌入到其他系统中使用。
+
 
 ## 5. 开发计划
 1. 需求调研与技术评估

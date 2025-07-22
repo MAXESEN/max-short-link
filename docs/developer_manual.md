@@ -7,13 +7,16 @@
 - 短链生成使用哈希算法或递增 ID，经 Base62 编码形成短字符串。
 
 ## 2. 环境准备
-1. 安装所需语言运行环境（Node.js、Python 或 Go）。
-2. 数据库配置：默认内置 SQLite，可按需安装并配置其他数据库。
-3. 克隆仓库并安装依赖：
+1. 安装 JDK 17+ 与 Maven 或 Gradle，用于构建 Spring Boot 后端。
+2. 安装 Node.js（16+）以编译前端 Vue 3 项目。
+3. 数据库配置：默认内置 SQLite，可按需安装并配置其他数据库。
+4. 克隆仓库并安装依赖：
    ```bash
    git clone <repo-url>
    cd project
-   npm install # 或 pip install -r requirements.txt 等
+   mvn -f backend/pom.xml package  # 构建后端
+   cd frontend && npm install      # 安装前端依赖
+
    ```
 
 ## 3. 核心模块
@@ -48,3 +51,9 @@
 2. **链接失效**：在数据库中记录过期时间或访问次数，跳转前先校验。
 3. **安全风险**：对外部链接进行过滤，防止恶意内容传播。
 
+## 7. 与其他项目融合
+1. **Jar 集成**：在现有 Spring Boot 项目中引入本模块的 Jar，按需配置数据库和安全设置。
+2. **Docker 部署**：通过 Docker Compose 与其他服务一起编排，统一日志与网络。
+3. **前端复用**：可将 Vue 组件拆分出来，在其他管理后台中直接引用。
+
+以上方案可以根据实际需求灵活选择，实现快速集成。

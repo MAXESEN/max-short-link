@@ -9,6 +9,7 @@
 - `deployment_guide.md`：Docker 部署指南，提供一键部署示例。
 - `integration_guide.md`：系统集成指南，说明如何与其他项目融合。
 - `architecture_overview.md`：架构与扩展规划，为长远发展提供参考。
+- `sql_config.md`：数据库配置指南。
 
 欢迎根据需求进行二次开发或提出改进建议。
 
@@ -18,3 +19,6 @@
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/example/max-short-link/main/install.sh)
 ```
+
+系统默认使用 SQLite 数据库，详情见 `docs/sql_config.md`。
+

@@ -47,6 +47,7 @@ volumes:
 
 ## 5. 环境变量
 - `DB_HOST`：数据库地址
+- `DB_FILE`：SQLite 文件路径（未设置时使用 ./data/shortlink.db）
 - `DB_USER`、`DB_PASSWORD`：数据库凭据
 - `REDIS_HOST`：Redis 地址
 

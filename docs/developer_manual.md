@@ -8,7 +8,7 @@
 
 ## 2. 环境准备
 1. 安装所需语言运行环境（Node.js、Python 或 Go）。
-2. 数据库配置：安装并启动 Redis 和 MySQL（或选定的数据库）。
+2. 数据库配置：默认内置 SQLite，可按需安装并配置其他数据库。
 3. 克隆仓库并安装依赖：
    ```bash
    git clone <repo-url>

@@ -8,6 +8,7 @@
 
 ## 2. 构建镜像
 在项目根目录执行以下命令生成镜像（会自动构建后端）：
+
 ```bash
 docker build -t shortlink:latest .
 ```

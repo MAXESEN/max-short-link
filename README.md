@@ -8,13 +8,16 @@
 - `database_schema.md`：数据库表结构说明，便于快速初始化数据表。
 - `deployment_guide.md`：Docker 部署指南，提供一键部署示例。
 - `integration_guide.md`：系统集成指南，说明如何与其他项目融合。
+
 - `extension_guide.md`：扩展与定制指南，帮助将短链模块无缝嵌入其他项目。
+
 - `architecture_overview.md`：架构与扩展规划，为长远发展提供参考。
 - `sql_config.md`：数据库配置指南。
 - `operation_guide.md`：运维指南，介绍备份、监控与升级流程。
 - `development_process.md`：开发流程与技术选型，给出项目实施步骤和推荐方案。
 - `frontend/`：基于 Vue 3 的示例界面代码。
 - `backend/`：Spring Boot 实现的后端服务源码。
+
 
 欢迎根据需求进行二次开发或提出改进建议。
 

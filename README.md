@@ -22,3 +22,4 @@ bash <(curl -Ls https://raw.githubusercontent.com/example/max-short-link/main/in
 ```
 
 系统默认使用 SQLite 数据库，详情见 `docs/sql_config.md`。
+

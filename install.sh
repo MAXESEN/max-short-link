@@ -32,6 +32,7 @@ else
   info "构建 Docker 镜像"
   docker build -t shortlink:latest .
   info "启动容器"
+
   docker run -d --name shortlink -p 8080:8080 -v "$(dirname $DB_FILE)":/app/data -e DB_FILE=/app/data/$(basename "$DB_FILE") shortlink:latest
 fi
 

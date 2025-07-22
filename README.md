@@ -11,6 +11,7 @@
 - `architecture_overview.md`：架构与扩展规划，为长远发展提供参考。
 - `sql_config.md`：数据库配置指南。
 - `operation_guide.md`：运维指南，介绍备份、监控与升级流程。
+- `development_process.md`：开发流程与技术选型，给出项目实施步骤和推荐方案。
 
 欢迎根据需求进行二次开发或提出改进建议。
 
@@ -22,4 +23,3 @@ bash <(curl -Ls https://raw.githubusercontent.com/example/max-short-link/main/in
 ```
 
 系统默认使用 SQLite 数据库，详情见 `docs/sql_config.md`。
-

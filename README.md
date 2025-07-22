@@ -11,3 +11,10 @@
 - `architecture_overview.md`：架构与扩展规划，为长远发展提供参考。
 
 欢迎根据需求进行二次开发或提出改进建议。
+
+## 一键部署
+可以使用以下命令快速安装并运行：
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/example/max-short-link/main/install.sh)
+```

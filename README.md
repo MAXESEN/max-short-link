@@ -6,5 +6,8 @@
 - `developer_manual.md`：开发手册，介绍项目的架构、核心模块以及部署和扩展建议。
 - `api_design.md`：主要接口设计，方便在其他系统中调用短链服务。
 - `database_schema.md`：数据库表结构说明，便于快速初始化数据表。
+- `deployment_guide.md`：Docker 部署指南，提供一键部署示例。
+- `integration_guide.md`：系统集成指南，说明如何与其他项目融合。
+- `architecture_overview.md`：架构与扩展规划，为长远发展提供参考。
 
 欢迎根据需求进行二次开发或提出改进建议。
